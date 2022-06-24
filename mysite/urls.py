@@ -1,5 +1,5 @@
 from django.contrib import admin
-from django.urls import path, include  # ← This line should make `include` available.
+from django.urls import path, include
 
 urlpatterns = [
     path('admin/', admin.site.urls),
